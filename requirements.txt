@@ -8,5 +8,5 @@ setuptools
 tox
 twine
 pypsrp
-re
-base64
+gssapi
+krb5
