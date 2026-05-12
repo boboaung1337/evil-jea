@@ -23,7 +23,7 @@ make build
 
 # Install system dependencies for Kerberos
 ```bash
-sudo apt-get install -y libkrb5-dev gssapi
+sudo apt-get install -y libkrb5-dev 
 ```
 # Install Python dependencies
 ```bash
