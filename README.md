@@ -12,6 +12,14 @@ A powerful WinRM client designed for interacting with JEA endpoints from Linux, 
 
 ## Installation
 
+### Using uv (Recommended)
+
+```bash
+# Install with Kerberos support (includes pypsrp with Kerberos)
+
+uv tool install --with pypsrp[kerberos] git+https://github.com/boboaung1337/evil-jea.git
+```
+
 ### From Source (Recommended for Kerberos support)
 
 ```bash
