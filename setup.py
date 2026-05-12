@@ -41,7 +41,10 @@ setup(
     version=version,
     install_requires=[
         # Include dependencies here
-        "click>=7.0,<8"
+        "click>=7.0,<8",
+        "pypsrp>=0.8.0",
+        "gssapi>=1.8.0",
+        "krb5>=0.5.0"
     ],
     entry_points="""
     [console_scripts]
